@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<FlowPane  xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.timetable.HelloController" vgap="10" hgap="10" orientation="VERTICAL">
+    <GridPane fx:id="gridPane">
+
+    </GridPane>
+
+    <Button fx:id="click" onAction="#onHelloButtonClick" prefWidth="80" ></Button>
+
+
+</FlowPane>
